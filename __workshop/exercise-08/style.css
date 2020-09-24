@@ -4,35 +4,86 @@ body {
 }
 
 .header {
+  background-color:#1E8AF1;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  padding: 10px 0;
+  box-shadow: 0 5px 10px #aaaaaa;
 }
 
 .registration-form {
+  width: 60vw;
+  margin: 30px auto;
+  box-shadow: 0 0px 10px #aaaaaa;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
 }
 
 .text-field {
-}
-
-.radio-label,
-.checkbox-label {
+  border: 1px solid #1E8AF1;
+  margin: 0 35%;
+  border-radius: 3px;
+  padding: 6px 6px;
 }
 
 label {
+  text-align: center;
+  margin: 15px 0 5px 0;
 }
 
-.section {
+.section1 {
+  border-top: 1px solid lightgrey;
+  padding-top: 10px;
+  width: 95%;
+  margin: 15px auto;
 }
 
-.section > label {
+.section2 {
+  width: 95%;
+  margin: 0 auto;
+  border-bottom: 1px solid lightgrey;
+  padding-bottom: 5px;
 }
 
-select {
+.section3 {
+  width: 95%;
+  margin: 10px auto;
+}
+
+.section4 {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.special {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
 textarea {
+  border: none;
+  background-color: rgb(245, 245, 245);
+  margin: 5px 0 0 0;
+  height: 70px;
 }
 
 .form-button {
+  width: 15%;
+  margin: 10px auto 20px auto;
+  font-family: 'Poppins', sans-serif;
+  background-color: white;
+  border: solid 1px #1E8AF1; 
+  padding: 15px 0;
+  font-size: 14px;
 }
 
 .form-button:hover {
+  background-color: #1E8AF1;
+  border: solid 1px #1E8AF1; 
+  color: white;
 }

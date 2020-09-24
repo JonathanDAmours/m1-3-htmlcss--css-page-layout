@@ -2,6 +2,49 @@ body {
   margin: 0;
 }
 
+.mobile-nav {
+  display: none;
+}
+
 .mobile-nav-button img {
   width: 18px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.desktop-nav {
+  display: flex;
+  align-items: center;
+}
+
+.desktop-nav ul{
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+}
+
+.desktop-nav ul li {
+  margin-left: 40px;
+}
+
+.desktop-nav ul li:last-of-type {
+  margin-right: 40px;
+}
+
+
+
+@media screen and (max-width: 800px) {
+
+  .mobile-nav {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+
+  .desktop-nav {
+    display: none;
+  }
 }

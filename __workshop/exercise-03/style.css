@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(imgs/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container p{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: xx-large;
+    text-shadow: 2px 2px black;
+}
