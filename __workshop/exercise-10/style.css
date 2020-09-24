@@ -10,7 +10,49 @@ body {
 }
 
 .fast {
+  font-size: 40px;
+  position: relative;
+  animation: movement 1s ease-in-out, fadeIn 2s normal;
+}
+
+@keyframes movement {
+  from {left: 200px;}
+  to {left: 0px;}
+} 
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
 }
 
 .cool {
+  border: none;
+  background-color: #1B84FE;
+  color: white;
+  padding: 20px 30px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px grey;
+  font-size: 14px;
+  text-transform: uppercase;
 }
+
+.content {
+  text-align: center;
+}
+
+/* .cool:hover {
+  transform: scale(1.2);
+  transition: all 1s ease-in;
+} */
+
+
+.cool:hover {
+  animation: bounce 0.8s ease;
+}
+
+@keyframes bounce {
+100%  {transform:scale(1);}
+140%  {transform:scale(0.8);}
+80%   {transform:scale(1.4);}
+100%  {transform:scale(1);}
+} 
